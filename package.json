@@ -23,7 +23,7 @@
     "webpack",
     "typescript"
   ],
-  "main": "src/script.tsx",
+  "main": "src/scripts/index.tsx",
   "scripts": {
     "test": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "build": "webpack --mode production",
